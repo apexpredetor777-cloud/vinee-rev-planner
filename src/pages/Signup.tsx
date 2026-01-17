@@ -125,7 +125,7 @@ const Signup = () => {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="John Doe"
+                placeholder=" VINEETH "
                 className={errors.name ? 'border-destructive' : ''}
                 disabled={isLoading}
               />
@@ -144,7 +144,7 @@ const Signup = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
+                placeholder="xyz@example.com"
                 className={errors.email ? 'border-destructive' : ''}
                 disabled={isLoading}
               />
